@@ -8,6 +8,7 @@ import router from './routers/index.js';
 import { errorHandler } from './middlewares/errorHandler.js';
 import { notFoundHandler } from './middlewares/notFoundHandler.js';
 
+
 dotenv.config();
 
 const PORT = Number(process.env.PORT);
