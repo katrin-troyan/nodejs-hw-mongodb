@@ -1,0 +1,26 @@
+type: object
+required:
+  - userId
+properties:
+  userId:
+    description: User id
+    type: string
+    example: '64e4decdd286b30065d54abc'
+  accessToken:
+    description: Access token for authorization
+    type: string
+    example: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'
+  refreshToken:
+    description: Refresh token
+    type: string
+    example: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'
+  accessTokenValidUntil:
+    description: Access token expiration timestamp
+    type: string
+    format: date-time
+    example: '2024-07-10T18:00:00Z'
+  refreshTokenValidUntil:
+    description: Refresh token expiration timestamp
+    type: string
+    format: date-time
+    example: '2024-08-10T18:00:00Z'
