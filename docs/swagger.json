@@ -11,10 +11,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000"
-    },
-    {
-      "url": "https://example.com/api/v1"
+      "url": "https://nodejs-hw-mongodb-6rsp.onrender.com"
     }
   ],
   "tags": [
@@ -947,28 +944,7 @@
     },
     "responses": {
       "204": {
-        "description": "Contact successfully deleted",
-        "content": {
-          "application/json": {
-            "schema": {
-              "type": "object",
-              "required": [
-                "status",
-                "message"
-              ],
-              "properties": {
-                "status": {
-                  "type": "integer",
-                  "example": 204
-                },
-                "message": {
-                  "type": "string",
-                  "example": "Contact deleted successfully"
-                }
-              }
-            }
-          }
-        }
+        "description": "Contact successfully deleted"
       },
       "400": {
         "description": "Bad request error",
